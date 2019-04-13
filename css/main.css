@@ -126,27 +126,11 @@ section {
 }
 @media (orientation: landscape){
   .hello{
-    top: 60vh;
-    left: 5vw;
+    top: 65vh;
+    left: 3vw;
   }
 }
-@media (orientation: landscape) and (min-width:800px) {
-  .hello h1{
-    font-size: 5rem;
-  }
-  .hello h2{
-    font-size: 3rem;
-  }
-  .hello p{
-    font-size: 2.8rem;
-  }
-}
-@media (orientation: landscape) and (min-width:1000px) {
-  .hello{
-    top: 70vh;
-    left: 5vw;
-  }
-}
+
 @media (min-width: 1600px){
   .hello{
     top: 65vh;
@@ -1127,7 +1111,6 @@ background-color:#eee;
 }
 
 .offer-page-box {
-  margin-bottom: 1%;
   min-height: 300px;
   background-position: center;
   background-size: cover;
@@ -1191,6 +1174,10 @@ background-color:#eee;
 
 
 @media (min-width: 530px) {
+  .offer-page-box {
+    margin-bottom: 1%;
+  }
+
   .roof {
     flex-basis: 49%;
   }
