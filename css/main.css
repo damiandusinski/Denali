@@ -1152,8 +1152,7 @@ footer p {
   text-transform: uppercase;
   text-decoration: none;
   background-color: rgba(0, 0, 0, 0.2);
-  transition: 0.5s;
-
+  transition: all .3s ease-out;
 }
 
 
@@ -1228,9 +1227,9 @@ footer p {
 
 @media (min-width: 1280px) {
 
-  .offer-page-box a:hover {
+  .offer-page-box:hover a {
     font-size: 2.6rem;
-    background-color: rgb(57, 134, 189, 0.4);
+    background-color: rgba(57, 134, 189, 0.4);
   }
 
   .climb {
